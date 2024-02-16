@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Niveau 1</title>
+        <link href="images/charlie.png" rel="icon">
+        <link href="style-quiz.css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        
+            <div class="quiz-box">
+                <header>
+                    <h1 class="title">Questionnaire</h1>  
+                    <img id="imgg" src="images/earth1.gif" hidden>          
+                </header>
+                <div class="details" >
+                  <p class="time">Temps: <span><b>01:30</b></span></p>
+                </div>
+                <section class="quiz-info">
+                    <div class="quiz-question">  
+                        <!-- quiz question from JS -->    
+                    </div>
+                    <div class="quiz-choices">
+                        <!-- quiz choices from JS -->
+                    </div>
+                    <div class="quiz-explication">
+                        <!-- quiz choices from JS -->
+                    </div>
+                    <div class="quiz-score">
+                        <h2>Votre score <span id="score"></span> sur 10</h2>
+                        <h3>Félicitations ! Quatre nouvelles icônes débloquées !</h3>
+                        <div class="wrapper" id="myDiv">
+                            <ul class="cards">
+                              <li class="card">
+                                <div class="view back-view">
+                                  <img src="images/img-4.png" id="img1" width="80%" alt="card-img">
+                                </div>
+                              </li>
+                              <li class="card">
+                                <div class="view back-view">
+                                  <img src="images/img-7.png" id="img2" width="80%" alt="card-img">
+                                </div>
+                              </li>
+                              <li class="card">
+                                <div class="view back-view">
+                                  <img src="images/img-6.png" id="img2" width="80%" alt="card-img">
+                                </div>
+                              </li>
+                              <li class="card">
+                                <div class="view back-view">
+                                  <img src="images/img-1.png" id="img2" width="80%" alt="card-img">
+                                </div>
+                              </li>
+                            </ul>  
+                        </div> 
+                        <a href="index.html">    
+                        <button class="play-again" id="btn">Joueur A Nouveau</button>
+                        </a>
+                    </div>
+                </section>
+                <footer>
+                    <!-- question count from JS -->
+                    <div class="quiz-footer">
+                        <button class="next-btn">Suivante</button>
+                        <p><span class="quiz-counter">Question <span id="counter"></span> sur 10</span></p>     
+                    </div>
+                </footer>
+            </div><!-- close quiz-box -->
+            
+        </div><!-- close container -->
+        
+        <!-- Font Awesome Link -->
+        <script src="https://kit.fontawesome.com/413d010aec.js" crossorigin="anonymous"></script>
+
+        <!-- Quiz JS File Links -->
+        <script src="js/questions.js"></script>
+        <script src="js/quiz.js"></script>
+
+    </body>
+</html>

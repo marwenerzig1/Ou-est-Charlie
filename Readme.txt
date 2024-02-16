@@ -1,0 +1,1 @@
+ ********** Pour acceder à notre application "Ou est charlie ?" lancer index.html **************  

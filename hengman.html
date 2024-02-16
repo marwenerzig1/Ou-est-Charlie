@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niveau 2</title>
+    <link href="images/charlie.png" rel="icon">
+    <link rel="stylesheet" href="style_hengman.css">
+    <script src="scripts/word-list.js" defer></script>
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="content">
+            <img src="#" alt="gif">
+            <h4>Echec !</h4>
+            <p></p>
+            <div class="wrapper" id="myDiv">
+                <ul class="cards">
+                  <li class="card">
+                    <div class="view back-view">
+                      <img src="images/img-5.png" id="img1" width="100%" alt="card-img">
+                    </div>
+                  </li>
+                  <li class="card">
+                    <div class="view back-view">
+                      <img src="images/img-10.png" id="img2" width="100%" alt="card-img">
+                    </div>
+                  </li>
+                </ul>  
+            </div> 
+            <a href="index.html">    
+            <button class="play-again">Play Again</button>
+            </a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hangman-box" >
+            <img src="#" draggable="false" alt="hangman-img">     
+        </div>
+        <div class="game-box">
+            <ul class="word-display"></ul>
+            <h4 class="hint-text">Indice: <b></b></h4>
+            <h4 class="guesses-text">suppositions incorrectes : <b></b></h4>
+            <div class="details" >
+              <p class="time">Temps: <span><b>00:45</b></span></p>
+            </div>
+            <div class="keyboard"></div>
+        </div>
+    </div>
+</body>
+</html>
